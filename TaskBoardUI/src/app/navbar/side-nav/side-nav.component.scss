@@ -1,0 +1,47 @@
+
+.sidebar {
+  &__container{
+    color: #fff;
+    height: 100%;
+    padding: 1.2rem 1rem 0 0rem;
+  }
+
+  &__heading-container{
+    display: flex;
+    margin-bottom: 0.8rem ;
+
+    .title{
+      font-size: 24px;
+      font-weight: bold;
+      padding-right: 2rem;
+      margin: auto;
+    }
+  }
+
+  &__link{
+    list-style: none;
+    padding-left: 0px;
+
+    li:hover {
+      background-color: #fff;
+      a{
+        color: #2E8DDC;
+      }
+    }
+
+    li {
+      margin-bottom: 8px;
+      padding: 8px 0px;
+      text-align: center;
+
+      a {
+        color: #F4EBE8;
+        text-decoration: none;
+        font-size: 18px;
+        padding-right: 2rem;
+        transition: 0.3s;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,16 @@
+# Ignore bin and obj folders
+**/bin/
+**/obj/
+bin
+obj
+packages
+# Ignore Visual Studio files
+.vs/
+
+# Ignore user-specific files
+*.user
+
+# Ignore log files
+*.log
+TaskBoardAPI/obj/
+

@@ -1,0 +1,15 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Weekly Progress</mat-card-title>
+    <mat-icon class="icon__push-pin">edit_calendar</mat-icon>
+  </mat-card-header>
+  <mat-card-content>
+    <canvas
+      baseChart
+      class="chart"
+      [data]="doughnutChartData"
+      [type]="doughnutChartType"
+    >
+    </canvas>
+  </mat-card-content>
+</mat-card>

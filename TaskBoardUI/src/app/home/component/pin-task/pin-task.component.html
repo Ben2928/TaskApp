@@ -1,0 +1,23 @@
+<mat-card class="pin-task__container">
+  <mat-card-header>
+    <mat-card-title>Pinned Task</mat-card-title>
+    <mat-icon class="icon__push-pin">sell</mat-icon>
+  </mat-card-header>
+  <mat-card-content>
+    <ng-container *ngIf="!backendConnected">
+      <mat-card>
+        <p>
+          Backend is not connected
+        </p>
+      </mat-card>
+    </ng-container>
+    <mat-card class="pin-task__inner-card" *ngFor="let task of workTasks">
+      <mat-card-title class="task-title">
+        {{task.title}}
+      </mat-card-title>
+      <mat-card-content>
+        {{task.description}}
+      </mat-card-content>
+    </mat-card>
+  </mat-card-content>
+</mat-card>

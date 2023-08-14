@@ -1,0 +1,15 @@
+
+
+.pin-task{
+  &__container{
+    min-height: 20rem;
+  }
+
+  &__inner-card{
+
+    .task-title{
+      font-size: 1rem;
+    }
+    margin-bottom: 1rem;
+  }
+}
